@@ -1050,7 +1050,11 @@ ul{
  	box-shadow: var(--shadow-black-300);
  	font-size: 16px;
  	text-align: center;
-	 transition: all 1s ease;
+	 transition: all 0.5s ease;
+ }
+
+ .toggle-theme:hover{
+	transform: translateY(-10px);
  }
 .toggle-theme i{
 	line-height: 40px;
