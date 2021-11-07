@@ -57,6 +57,11 @@ img{
 	max-width: 100%;
 	vertical-align: middle;
 	border-radius: 16px;
+	transition: all 0.5s ease;
+}
+
+img:hover {
+	transform: translateY(-10px);
 }
 ul{
 	list-style: none;
@@ -79,7 +84,7 @@ ul{
 .btn-1:hover{
 	color: #ffffff;
 	border-radius: 36px;
-	background-color: #3EB049;
+	background-color:var(--main-color);
 	transform: translateY(-10px);
 }
 .btn-2{
@@ -834,6 +839,7 @@ ul{
 	border-radius: 10px;
 	box-shadow: var(--shadow-black-100);
 	transition: all 0.5s ease;
+	text-align: center;
 }
 
 .team-item:hover{
