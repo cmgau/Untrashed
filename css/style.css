@@ -14,10 +14,10 @@
   }
 
 :root{
-	--main-color: #143C63;
-	--color-1: #3EB049;
-	--color-2: #8930D6;
-	--color-3: #F8C143;
+	--main-color: #3F3D56;
+	--color-1: #4EC0AA;
+	--color-2: #2992BF;
+	--color-3: #FF9749;
 	--color-4: #C72B6D;
 	--bg-dark: #2b2c2f;
 	--main-to-dark-color: var(--main-color);
@@ -68,7 +68,7 @@ ul{
 	list-style: none;
 }
 .btn-1{
-	background-color: #C72B6D;
+	background-color: var(--color-3);
 	padding: 12px 30px;
 	border:none;
 	border-radius: 8px;
@@ -188,14 +188,8 @@ ul{
 	text-align: center;
 	margin:0;
 }
-
-.h2Orange {
-	color: var(--color-3);
-}
-
-
 .section-title h2 span{
-	color: var(--color-4);
+	color: var(--color-3);
 }
 .owl-carousel .owl-dots{
    padding:0 15px;
@@ -234,6 +228,7 @@ ul{
 
 .preloadericon {
 	animation: bounceTop_01 3s ease infinite;
+	max-width: 300px;
 }
 /*-----------------
  04. Navbar
@@ -512,10 +507,10 @@ ul{
 /*--------------------
 08. Fun Facts Section
 -----------------------*/
-<<<<<<< Updated upstream
-=======
+.h2Orange {
+	color: var(--color-3);
+}
 
->>>>>>> Stashed changes
 .fun-facts{
 	background-color: var(--black-100);
 }
@@ -532,6 +527,8 @@ ul{
 	border-radius: 32px;
 	animation: bounceTop_01 3s ease infinite;
 }
+
+
 .fun-facts-text p{
 	font-size: 16px;
 	line-height: 26px;
