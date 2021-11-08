@@ -228,6 +228,7 @@ ul{
 
 .preloadericon {
 	animation: bounceTop_01 3s ease infinite;
+	max-width: 360px;
 }
 /*-----------------
  04. Navbar
