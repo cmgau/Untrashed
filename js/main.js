@@ -105,9 +105,9 @@ $(document).ready(function () {
     });
     /* ------------------------ 0.7 Team Carousel ----------------- */
     $('.team-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
-        autoplay: true,
+        autoplay: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -117,8 +117,9 @@ $(document).ready(function () {
                 items: 2,
             },
             1000: {
-                items: 3,
+                items: 4,
             }
+
         }
     });
     /*-------------------- 08. Page Scrolling - ScrollIt ---------------------*/
