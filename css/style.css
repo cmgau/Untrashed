@@ -157,7 +157,7 @@ ul{
 	left:20%;
 	top:20%;
 	font-size: 20px;
-	color: var(--color-2);
+	color: var(--color-3);
 	animation: spin_01 5s linear infinite;
 }
 .effect-wrap .effect-2{
@@ -171,7 +171,7 @@ ul{
 	left:5%;
 	bottom:30%;
 	font-size: 25px;
-	color: var(--color-3);
+	color: var(--color-2);
 	animation: bounceTop_01 3s linear infinite;
 }
 .section-padding{
@@ -205,7 +205,7 @@ ul{
 	border-radius: 5px;
 }
 .owl-carousel button.owl-dot.active{
-	background-color:#C72B6D;
+	background-color:var(--color-3);
 }
 
 /*-------------
@@ -537,7 +537,7 @@ ul{
 	font-weight: 300;
 }
 .fun-fact-item{
-	padding:40px 30px;
+	padding:40px 10px;
 	text-align: center;
 	box-shadow: var(--shadow-black-100);
 	border-radius: 10px;
