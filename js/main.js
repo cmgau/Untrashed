@@ -105,7 +105,7 @@ $(document).ready(function () {
     });
     /* ------------------------ 0.7 Team Carousel ----------------- */
     $('.team-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 0,
         autoplay: false,
         responsiveClass: true,
@@ -134,8 +134,8 @@ $(document).ready(function () {
 
     /*------------------- 10. Toggle Theme - Light & Dark Mode ----------------*/
     function toggleTheme() {
-        if (localStorage.getItem("shala-theme") !== null) {
-            if (localStorage.getItem("shala-theme") === "dark") {
+        if (localStorage.getItem("untrashed-theme") !== null) {
+            if (localStorage.getItem("untrashed-theme") === "dark") {
                 $("body").addClass("dark");
             }
             else {
@@ -149,10 +149,10 @@ $(document).ready(function () {
     $(".toggle-theme").on("click", function () {
         $("body").toggleClass("dark");
         if ($("body").hasClass("dark")) {
-            localStorage.setItem("shala-theme", "dark");
+            localStorage.setItem("untrashed-theme", "dark");
         }
         else {
-            localStorage.setItem("shala-theme", "light");
+            localStorage.setItem("untrashed-theme", "light");
         }
         updateIcon();
     });

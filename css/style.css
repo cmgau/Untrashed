@@ -765,6 +765,8 @@ ul{
 .team-item{
 	margin:15px;
 	padding: 30px;
+	min-height: 400px;
+	max-height: 450px;
 	border-radius: 10px;
 	box-shadow: var(--shadow-black-100);
 	transition: all 0.5s ease;
