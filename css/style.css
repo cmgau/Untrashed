@@ -8,6 +8,13 @@
 /*----------------
  02. Global Css
 ------------------*/
+.mockup{
+	filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+	border-style: solid;
+	border-width: 2px;
+
+}
+
 .icon {
 	max-width: 200px;
 	cursor: pointer;
@@ -327,7 +334,7 @@ ul{
 	max-width: 250px;
 	width: 100%;
 	box-shadow: var(--shadow-black-100);
-	border-radius: 32px;
+	border-radius: 24px;
 	animation: bounceTop_01 3s ease infinite;
 }
 .home-img{
@@ -524,7 +531,7 @@ ul{
     max-width: 250px;
 	width: 100%;
 	box-shadow: var(--shadow-black-100);
-	border-radius: 32px;
+	border-radius: 24px;
 	animation: bounceTop_01 3s ease infinite;
 }
 

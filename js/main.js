@@ -68,7 +68,7 @@ $(document).ready(function () {
 
     /* ------------------------ 05. Screenshots Carousel ----------------- */
     $('.screenshots-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 0,
         autoplay: false,
         responsiveClass: true,
