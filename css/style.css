@@ -218,20 +218,16 @@ ul{
 	height: 100%;
 	width: 100%;
 	z-index: 2100;
-	background-color: var(--color-1);
+	background-image: url("/img/preloader.jpg");
+	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.preloader span{
-	display: block;
-	height: 60px;
-	width: 60px;
-	background-color: var(--dark-to-main-color);
-	border-radius: 50%;
-	animation: zoomInOut_01 1s ease infinite;
-}
 
+.preloadericon {
+	animation: bounceTop_01 3s ease infinite;
+}
 /*-----------------
  04. Navbar
  -----------------*/
