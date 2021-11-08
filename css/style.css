@@ -188,6 +188,12 @@ ul{
 	text-align: center;
 	margin:0;
 }
+
+.h2Orange {
+	color: var(--color-3);
+}
+
+
 .section-title h2 span{
 	color: var(--color-4);
 }
@@ -506,6 +512,10 @@ ul{
 /*--------------------
 08. Fun Facts Section
 -----------------------*/
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .fun-facts{
 	background-color: var(--black-100);
 }
