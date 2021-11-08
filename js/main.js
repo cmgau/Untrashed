@@ -70,7 +70,7 @@ $(document).ready(function () {
     $('.screenshots-carousel').owlCarousel({
         loop: true,
         margin: 0,
-        autoplay: true,
+        autoplay: false,
         responsiveClass: true,
         responsive: {
             0: {
@@ -82,23 +82,11 @@ $(document).ready(function () {
             1000: {
                 items: 4,
             }
+
         }
 
     });
 
-    // disable scroll
-    owl.on('drag.owl.carousel', function (event) {
-        document.ontouchmove = function (e) {
-            e.preventDefault()
-        }
-    })
-
-    // enable scroll
-    owl.on('dragged.owl.carousel', function (event) {
-        document.ontouchmove = function (e) {
-            return true
-        }
-    })
 
     /* ------------------------ 06. Testimonials Carousel ----------------- */
     $('.testimonials-carousel').owlCarousel({
