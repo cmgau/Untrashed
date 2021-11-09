@@ -18,7 +18,7 @@
 
 $(window).on("load", function () {
     /*------------------ 01. Preloader -----------------*/
-    $(".preloader").delay(2000).fadeOut("slow");
+    $(".preloader").delay(5000).fadeOut("1000");
 });
 
 $(document).ready(function () {

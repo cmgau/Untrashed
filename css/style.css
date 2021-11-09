@@ -15,6 +15,10 @@
 
 }
 
+.herotext {
+	text-align: center;
+}
+
 .icon {
 	max-width: 200px;
 	cursor: pointer;
@@ -218,6 +222,19 @@ ul{
 /*-------------
  03. Preloader
 -------------*/
+
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+  }
+
 .preloader{
 	position: fixed;
 	left:0;
@@ -232,6 +249,7 @@ ul{
 	justify-content: center;
 	/* background-color: var(--main-color); */
 }
+
 
 .preloadericon {
 	animation: bounceTop_01 3s ease infinite;
@@ -938,6 +956,15 @@ ul{
 		margin-bottom: 30px;
 	}
 }
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://raw.githubusercontent.com/cmgau/Untrashed/main/img/preloader.jpg") no-repeat;
+      background-size: cover;
+    }
+}
+
 @media(max-width: 767px){
 	.home-text{
 		margin-bottom: 80px;
