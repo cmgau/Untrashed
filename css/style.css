@@ -256,7 +256,7 @@ ul{
 	margin-left: 40px;
 }
 .navbar .nav-item .nav-link{
-	color: #ffffff;
+	color:#ffffff;
 	text-transform: capitalize;
 	font-size: 16px;
 	font-weight: 400;
@@ -626,6 +626,7 @@ ul{
 
 .app-download-item:hover{
 	transform: translateY(-10px);
+	color:#FF9749;
 }
 .app-download-item i{
 	font-size:30px;
@@ -852,6 +853,9 @@ ul{
 	margin-right: auto;
 	width: 50%;
 }
+
+
+
 /*---------------------
  15. Toogle Theme - light and dark mode
  ---------------------------------*/
